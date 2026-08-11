@@ -25,7 +25,7 @@ class MatomoBotTracker
         $tracker->setRequestConnectTimeout($timeout);
         $tracker->setUrl($pageUrl);
         $tracker->setUserAgent($userAgent);
-        $tracker->setCustomTrackingParameter("recMode", 2);
+        $tracker->setCustomTrackingParameter("recMode", 1);
         $tracker->doTrackPageView($pageUrl);
     }
 }
