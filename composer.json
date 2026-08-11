@@ -1,0 +1,15 @@
+{
+    "name": "brandcom/silverstripe-ai-chatbot-tracking",
+    "description": "Track AI chatbot page views in Matomo for Silverstripe",
+    "type": "silverstripe-vendormodule",
+    "require": {
+        "php": "^8.3",
+        "matomo/matomo-php-tracker": "^3.4",
+        "silverstripe/framework": "^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brandcom\\AIChatbotTracking\\": "src/"
+        }
+    }
+}

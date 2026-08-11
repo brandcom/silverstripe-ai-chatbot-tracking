@@ -1,0 +1,14 @@
+---
+Name: ai-chatbot-tracking
+After:
+  - requestprocessors
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Director:
+    properties:
+      Middlewares:
+        AIChatbotTrackingMiddleware: '%$Brandcom\\AIChatbotTracking\\AIChatbotTrackingMiddleware'
+
+Brandcom\AIChatbotTracking\AIChatbotTrackingMiddleware:
+  enabled: true
+  timeout_milliseconds: 500
