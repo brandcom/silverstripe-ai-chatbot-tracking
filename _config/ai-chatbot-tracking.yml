@@ -7,7 +7,7 @@ SilverStripe\Core\Injector\Injector:
   SilverStripe\Control\Director:
     properties:
       Middlewares:
-        AIChatbotTrackingMiddleware: '%$Brandcom\\AIChatbotTracking\\AIChatbotTrackingMiddleware'
+        AIChatbotTrackingMiddleware: '%$Brandcom\AIChatbotTracking\AIChatbotTrackingMiddleware'
 
 Brandcom\AIChatbotTracking\AIChatbotTrackingMiddleware:
   enabled: true
