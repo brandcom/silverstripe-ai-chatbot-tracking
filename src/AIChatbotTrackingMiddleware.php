@@ -17,17 +17,13 @@ class AIChatbotTrackingMiddleware implements HTTPMiddleware
     use Configurable;
 
     private static array $bot_user_agent_substrings = [
-        "GPTBot",
-        "ChatGPT-User",
-        "MistralAI-User",
-        "Gemini-Deep-Research",
-        "Claude-User",
-        "Perplexity-User",
-        "GoogleAgent",
-        "Devin",
-        "NovaAct",
-        "Google-Extended",
-        "Google-CloudVertexBot",
+        'ChatGPT-User',
+        'MistralAI-User',
+        'Gemini-Deep-Research',
+        'Claude-User',
+        'Perplexity-User',
+        'Google-NotebookLM',
+        'GPTBot',
     ];
 
     private static string $matomo_url = "";
