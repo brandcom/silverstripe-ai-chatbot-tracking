@@ -1,6 +1,6 @@
 <?php
 
-require dirname(__DIR__, 3) . "/vendor/autoload.php";
+require dirname(__DIR__, 3) . "/autoload.php";
 require dirname(__DIR__) . "/src/AIChatbotTrackingMiddleware.php";
 
 use Brandcom\AIChatbotTracking\AIChatbotTrackingMiddleware;

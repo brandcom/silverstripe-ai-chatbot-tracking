@@ -5,7 +5,7 @@
     "require": {
         "php": "^8.3",
         "matomo/matomo-php-tracker": "^3.4",
-        "silverstripe/framework": "^5"
+        "silverstripe/framework": "^5 || ^6"
     },
     "autoload": {
         "psr-4": {
